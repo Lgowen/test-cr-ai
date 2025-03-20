@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/Lgowen/test-cr-ai/compare/v0.1.0...v0.2.0) (2025-03-20)
+
+
+### Features
+
+* 修改github action名称 ([6d52ff9](https://github.com/Lgowen/test-cr-ai/commit/6d52ff9bcbf9a89f45e765e2ff2b97a21cd86f0d))
+
 ## [0.1.0](https://github.com/Lgowen/test-cr-ai/compare/v0.0.1...v0.1.0) (2025-03-20)
 
 
