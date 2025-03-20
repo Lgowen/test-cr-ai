@@ -1,4 +1,4 @@
-name: 'Code Review GPT'
+name: 'TEST CR BOT'
 description: 'Reviews PR changes with a GPT model from OpenAI'
 author: 'Orion Tools'
 inputs:
