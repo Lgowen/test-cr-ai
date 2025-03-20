@@ -78,21 +78,23 @@ export class AIModel {
   }
 }
 const parseJson = (json: string) => {
-  logger.debug("Unparsed JSON", json);
+  logger.debug('Unparsed JSON', json);
 
-  const jsonString = json
-    .replace(/\\/g, "\\\\")
-    .replace(/\n/g, "\\n")
-    .replace(/\r/g, "\\r")
-    .replace(/\t/g, "\\t")
-    .replace(/```/g, "\\`\\`\\`")
-    .replace(/`/g, "\\`")
-    .replace(/"/g, '\\"')
-    .replace(/\f/g, "\\f")
-    .replace(/\b/g, "\\b")
-    .replace(/\u2028/g, "\\u2028")
-    .replace(/\u2029/g, "\\u2029");
+  // todo: 豆包模型返回的json格式有问题，需要修复, 先暂时这样处理
+  // const jsonString = json
+  //   .replace(/\\/g, '\\\\')
+  //   .replace(/\n/g, '\\n')
+  //   .replace(/\r/g, '\\r')
+  //   .replace(/\t/g, '\\t')
+  //   .replace(/```/g, '\\`\\`\\`')
+  //   .replace(/`/g, '\\`')
+  //   .replace(/"/g, '\\"')
+  //   .replace(/\f/g, '\\f')
+  //   .replace(/\b/g, '\\b')
+  //   .replace(/\u2028/g, '\\u2028')
+  //   .replace(/\u2029/g, '\\u2029');
 
-  logger.debug('Escaped JSON', jsonString);
-  return JSON.parse(jsonString);
+  // logger.debug('Escaped JSON', jsonString);
+  return JSON.parse(json);
 };
+
