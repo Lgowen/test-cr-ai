@@ -39,4 +39,4 @@ funtion addOutputText() {
 
 }
 
-console.log(permute([1,2,3], 2))
+console.log(permute([1,2,3], 2));
