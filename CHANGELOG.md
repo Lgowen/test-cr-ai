@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/Lgowen/test-cr-ai/compare/v0.0.1...v0.1.0) (2025-03-20)
+
+
+### Features
+
+* 新增测试文件 ([3d53a63](https://github.com/Lgowen/test-cr-ai/commit/3d53a63c5b745b9103b4b6d92542a1650ede9828))
+
 ## [0.8.0](https://github.com/mattzcarey/code-review-gpt/compare/v0.7.0...v0.8.0) (2025-02-23)
 
 
