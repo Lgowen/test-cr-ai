@@ -23,11 +23,11 @@ stages:
           clean: all
         steps:
           - script: |
-              npm install code-review-gpt
-            displayName: "Install code-review-gpt"  
+              npm install test-cr-ai
+            displayName: "Install test-cr-ai"  
           
           - script: |
-              npx code-review-gpt review --ci=azdev --model=gpt-4o-mini
+              npx test-cr-ai review --ci=azdev --model=gpt-4o-mini
             env:
               API_TOKEN: $(API_TOKEN)
               OPENAI_API_KEY: $(OPENAI_API_KEY)

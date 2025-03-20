@@ -29,8 +29,8 @@ runs:
     - name: Install and Run Code Review GPT
       shell: bash
       run: |
-        bun add code-review-gpt@latest
-        bun code-review-gpt review --ci=github --model=$MODEL --reviewLanguage=$REVIEW_LANGUAGE
+        bun add test-cr-ai@latest
+        bun test-cr-ai review --ci=github --model=$MODEL --reviewLanguage=$REVIEW_LANGUAGE
       env:
         MODEL: ${{ inputs.MODEL }}
         REVIEW_LANGUAGE: ${{ inputs.REVIEW_LANGUAGE }}
