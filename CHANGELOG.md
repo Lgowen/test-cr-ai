@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/Lgowen/test-cr-ai/compare/v0.3.0...v0.3.1) (2025-03-20)
+
+
+### Bug Fixes
+
+* 暂时屏蔽豆包模型返回结果parse报错转译代码 ([a4abd1d](https://github.com/Lgowen/test-cr-ai/commit/a4abd1ddc81746aeaa40316f0f570d2cdbececad))
+
 ## [0.2.0](https://github.com/Lgowen/test-cr-ai/compare/v0.1.0...v0.2.0) (2025-03-20)
 
 
