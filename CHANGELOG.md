@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/Lgowen/test-cr-ai/compare/v0.4.0...v0.4.1) (2025-03-26)
+
+
+### Bug Fixes
+
+* 修复参数实效问题 ([c8c30bf](https://github.com/Lgowen/test-cr-ai/commit/c8c30bfaccebff995d6a6cfe86dd6a5d8a0a15d5))
+
 ## [0.4.0](https://github.com/Lgowen/test-cr-ai/compare/v0.3.1...v0.4.0) (2025-03-26)
 
 
