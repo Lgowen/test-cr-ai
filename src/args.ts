@@ -45,7 +45,7 @@ export const getYargs = async (): Promise<ReviewArgs> => {
       description:
         'Enables feedback to be made on a file-by-file basis. Only work when the script is running on GitHub.',
       type: 'boolean',
-      default: false,
+      default: true,
     })
     .option('model', {
       description: 'The model to use for generating the review.',
