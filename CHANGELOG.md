@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/Lgowen/test-cr-ai/compare/v0.3.1...v0.4.0) (2025-03-26)
+
+
+### Features
+
+* 修改默认参数值 ([eee8af3](https://github.com/Lgowen/test-cr-ai/commit/eee8af3a5027d15d9b1ec6026c2355c1a50e0435))
+
 ## [0.3.1](https://github.com/Lgowen/test-cr-ai/compare/v0.3.0...v0.3.1) (2025-03-20)
 
 
